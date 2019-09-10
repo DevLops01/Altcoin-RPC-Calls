@@ -8,7 +8,8 @@ request - npm i request
 
 API Calls
 placed in "method": "CALL HERE"
- 
+
+EXAMPLES
 == Addressindex ==
 getaddressbalance
 getaddressdeltas
