@@ -10,35 +10,6 @@ RPC Calls
 
 placed in "method": "CALL HERE"
 
-example
-``
-const request = require('request');
-let username = 'user'
-let password = 'password'
-
-let options = {
-    url: "http://localhost:9998",
-    method: "POST",
-    json: true,
-    headers:
-    { 
-     "content-type": "application/Javascript"
-    },
-    auth: {
-        user: username,
-        pass: password
-    },
-    body: {"jsonrpc": "1.0", "id": "", "method": "gettxoutsetinfo", "params": [] }
-};
-
-function getData(){
-request(options, (error, response, body) => {
-    if (error) {
-        console.error('An error has occurred: ', error);
-    } else {
-        console.log(body['result']['total_amount']); 
-    }});
-}
-``
+example "method": "getbalance"
 
 Avaialable RPC Calls - https://github.com/PythonKoder/Altcoin-RPC-Calls/blob/master/index.js
