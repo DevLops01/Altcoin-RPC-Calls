@@ -12,4 +12,4 @@ placed in "method": "CALL HERE"
 
 example "method": "getbalance"
 
-Avaialable RPC Calls - https://github.com/PythonKoder/Altcoin-RPC-Calls/blob/master/index.js
+Avaialable RPC Calls - https://github.com/PythonKoder/Altcoin-RPC-Calls/blob/master/rpcCalls.txt
